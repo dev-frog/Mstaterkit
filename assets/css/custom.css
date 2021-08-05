@@ -1,0 +1,41 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/* root color */
+:root {
+    --header-height: 3rem;
+    /* colors */
+    --dbg: #1a181e;
+    --rbg: #26222B;
+    --dlg: #413C49;
+    --lbg: #fefefe;
+    --tic: #e1dbec;
+    --tac: #fff;
+    --tlc: #53b3a0;
+
+    /* typography */
+    --body-font: 'Fjalla One', sans-serif;
+    --big-font-size: 2.5rem;
+    --normal-font-size: 0.938rem;
+
+    /* z index */
+    --z-fixed: 100;
+}
+
+
+/* responsive */
+
+@media screen and (min-width: 768px) {
+    :root {
+        --big-font-size: 5rem;
+        --normal-font-size: 1rem;
+    }
+}
+
+/* Base */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
